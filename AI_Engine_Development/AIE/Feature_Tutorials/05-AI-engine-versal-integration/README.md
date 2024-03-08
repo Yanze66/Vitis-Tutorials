@@ -757,7 +757,7 @@ After packaging, everything is set to run emulation. Since you ran `aiesimulator
     dmesg -n 4 && echo "Hide DRM messages..."
     cd /run/media/*1
     export XILINX_XRT=/usr
-    ./host.exe a.xclbin
+    ./host.exe a.xclbin // change to your own host file and xclbin
     ```
 
 You should see **TEST PASSED**. You have successfully run your design on hardware.
